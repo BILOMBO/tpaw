@@ -1,5 +1,3 @@
-<<<<<<< HEAD
-
 
 function Validation() {
     var nomValue = document.querySelector("#nom").value;
@@ -88,4 +86,3 @@ else if (prenomValue == "") {
         
     }
 }
->>>>>>> 141ece6e6bc229f78b78f4eaf3278904d334cbec
