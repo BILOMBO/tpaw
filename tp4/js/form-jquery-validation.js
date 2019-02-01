@@ -72,7 +72,7 @@ $( document ).ready(function() {
             });
 
 
-            $("#valider").on("submit",function store(event) { 
+            $("#valider").on("click",function store(event) { 
                 event.preventDefault();
                 
                     var innom= document.getElementById("name");
