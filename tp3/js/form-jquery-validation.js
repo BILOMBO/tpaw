@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 $(document).ready(function () {
     $("#submit").on("click", function (e) {
         e.preventDefault();
@@ -43,7 +42,7 @@ $(document).ready(function () {
 
         }
     });
-=======
+
 $(document).ready(function () {
     $("#submit").on("click", function (e) {
         e.preventDefault();
@@ -88,5 +87,5 @@ $(document).ready(function () {
 
         }
     });
->>>>>>> 141ece6e6bc229f78b78f4eaf3278904d334cbec
+
 });
