@@ -15,7 +15,7 @@ $( document ).ready(function() {
     var msg = " "+ nombreCaractere + ' Caractère(s)';
     $('#compteur2').text(msg);
 
-    var nombreCaractere = $("#birth").val().length;
+    var nombreCaractere = $("#date").val().length;
     var msg =  " "+ nombreCaractere + ' Caractère(s)';
     $('#compteur3').text(msg);
 
