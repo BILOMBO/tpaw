@@ -72,7 +72,7 @@ $( document ).ready(function() {
             });
 
 
-            $("#formulaire").on("submit",function store(event) { 
+            $("#valider").on("submit",function store(event) { 
                 event.preventDefault();
                 
                     var innom= document.getElementById("name");
