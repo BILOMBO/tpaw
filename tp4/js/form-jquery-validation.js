@@ -86,9 +86,9 @@ $( document ).ready(function() {
                   && $("#adresse").val() !== "" && $("#mail").val() !== "" ){
                     
                     //stocker les valeurs saisie dans le navigateur
-                    localStorage.setItem("name", innom.value);
-                    localStorage.setItem("firstname", inprenom.value);
-                    localStorage.setItem("birth", inbirth.value);
+                    localStorage.setItem("nom", innom.value);
+                    localStorage.setItem("prenom", inprenom.value);
+                    localStorage.setItem("date", inbirth.value);
                     localStorage.setItem("adresse", inadresse.value);
                     localStorage.setItem("mail", inmail.value);
 
