@@ -76,9 +76,9 @@ $( document ).ready(function() {
                 event.preventDefault();
                 
                 
-                    var innom= document.getElementById("name");
-                    var inprenom= document.getElementById("firstname");
-                    var inbirth= document.getElementById("birth");
+                    var innom= document.getElementById("nom");
+                    var inprenom= document.getElementById("prenom");
+                    var inbirth= document.getElementById("date");
                     var inadresse= document.getElementById("adresse");
                     var inmail= document.getElementById("mail");
                     
