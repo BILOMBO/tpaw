@@ -7,11 +7,11 @@ $( document ).ready(function() {
      //ajout du compteur de nombre de caractéres pour chaque champ
             $(document).keyup(function(){
 // ajout des compteurs de caractére a coté de chaque champs de saisie 
-    var nombreCaractere = $("#name").val().length;
+    var nombreCaractere = $("#nom").val().length;
     var msg =  " " + nombreCaractere + ' Caractère(s)';
     $('#compteur1').text(msg);
 
-    var nombreCaractere = $("#firstname").val().length;
+    var nombreCaractere = $("#prenom").val().length;
     var msg = " "+ nombreCaractere + ' Caractère(s)';
     $('#compteur2').text(msg);
 
