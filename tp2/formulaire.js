@@ -41,7 +41,6 @@ else if (prenomValue == "") {
         
     }
 }
-=======
 
 
 function Validation() {
