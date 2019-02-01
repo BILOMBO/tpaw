@@ -74,6 +74,7 @@ $( document ).ready(function() {
 
             $("#valider").on("click",function store(event) { 
                 event.preventDefault();
+                console.log("DOM ready!");
                 
                     var innom= document.getElementById("name");
                     var inprenom= document.getElementById("firstname");
@@ -93,7 +94,7 @@ $( document ).ready(function() {
 
                    $('#success').addClass("alert alert-success").text("le formulaire est sauvegardé dans le tableau");
 
-                  // $("#tablee").show();
+                  $("#tablee").show();
                    
                    // ajout des valeurs saisie dans le tableau
                    document.querySelector("table tbody").innerHTML = document.querySelector("table tbody")
