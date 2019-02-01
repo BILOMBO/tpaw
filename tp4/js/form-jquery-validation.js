@@ -74,7 +74,7 @@ $( document ).ready(function() {
 
             $("#valider").on("click",function store(event) { 
                 event.preventDefault();
-                console.log("DOM ready!");
+                
                 
                     var innom= document.getElementById("name");
                     var inprenom= document.getElementById("firstname");
